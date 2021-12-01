@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MonPortFolio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">KABA Mamadi</string>
+    <string name="nav_header_subtitle">Apprenant a Simplon</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">MK.</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_formations">Formations</string>
+    <string name="menu_competence">Competences</string>
+    <string name="menu_Projets">Projet</string>
+</resources>
