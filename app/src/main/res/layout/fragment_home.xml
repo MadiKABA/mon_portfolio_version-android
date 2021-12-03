@@ -35,22 +35,23 @@
                 android:padding="15sp"
                 android:text="Bonjour, je m’appelle KABA Mmamadi,
                            apprenant en  developpement
-                           web et web mobile a simplon senegal. "
+                           web et web mobile a simplon senegal.
+                           je suis une personne qui a le sens du leadership,
+                           de l’organisation,de l’autonomie mais sur tout
+                            tres poluvent dans le domaines de l’informatique "
                 android:textColor="@color/white"
                 android:textSize="35dp" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
-                android:text="Voir mon CV"
-                android:textColor="#000000"
-                android:textSize="25sp"
-                android:width="100dp"
+                android:layout_height="66dp"
                 android:layout_margin="50dp"
-                />
+                android:width="80dp"
+                android:background="@drawable/bordure_ronde"
+                android:text="Voir mon CV"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
 
         </LinearLayout>
     </ScrollView>

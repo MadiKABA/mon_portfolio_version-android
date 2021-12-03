@@ -3,7 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/fragment_formations.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/bordure_ronde.xml" value="0.215625" />
+        <entry key="app/src/main/res/drawable/btn_raduis.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/card_formation_border.xml" value="0.215625" />
+        <entry key="app/src/main/res/drawable/circle_progress.xml" value="0.215625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_competences.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_formations.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3342391304347826" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.19947916666666668" />
       </map>
     </option>
   </component>
