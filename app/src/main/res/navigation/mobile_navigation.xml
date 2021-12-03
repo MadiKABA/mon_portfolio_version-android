@@ -33,9 +33,9 @@
         android:label="@string/menu_formations"
         tools:layout="@layout/fragment_formations" />
     <fragment
-        android:id="@+id/nav_projets"
-        android:name="com.example.monportfolio.ui.projets.ProjetFragment"
-        android:label="@string/menu_Projets"
-        tools:layout="@layout/fragment_projets" />
+        android:id="@+id/nav_realisations"
+        android:name="com.example.monportfolio.ui.realisation.RealisationFragment"
+        android:label="@string/menu_Realisations"
+        tools:layout="@layout/fragment_realisations" />
 
 </navigation>

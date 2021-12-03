@@ -9,21 +9,15 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
             android:id="@+id/nav_formations"
             android:title="@string/menu_formations" />
         <item
             android:id="@+id/nav_competences"
             android:title="@string/menu_competence" />
         <item
-            android:id="@+id/nav_projets"
-            android:title="@string/menu_Projets" />
+            android:id="@+id/nav_realisations"
+            android:title="@string/menu_Realisations" />
+
+
     </group>
 </menu>
