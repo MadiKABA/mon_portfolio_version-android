@@ -10,11 +10,13 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_centre_d_interet.xml" value="0.31567028985507245" />
         <entry key="app/src/main/res/layout/fragment_competences.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/fragment_formations.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3342391304347826" />
         <entry key="app/src/main/res/layout/fragment_projets.xml" value="0.19077568134171907" />
         <entry key="app/src/main/res/layout/fragment_realisation.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/fragment_realisations.xml" value="0.17451874366767983" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/menu/main.xml" value="0.19947916666666668" />

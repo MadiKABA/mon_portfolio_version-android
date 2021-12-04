@@ -37,5 +37,10 @@
         android:name="com.example.monportfolio.ui.realisation.RealisationFragment"
         android:label="@string/menu_Realisations"
         tools:layout="@layout/fragment_realisations" />
+    <fragment
+        android:id="@+id/nav_centreInteret"
+        android:name="com.example.monportfolio.ui.centre_d_interet.CentreDInteretFragment"
+        android:label="@string/menu_centreDInteret"
+        tools:layout="@layout/fragment_centre_d_interet" />
 
 </navigation>
