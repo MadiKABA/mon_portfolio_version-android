@@ -27,7 +27,9 @@
                     android:padding="8dp"
                     android:text="Mes Realisations"
                     android:textAlignment="center"
-                    android:textSize="38sp" />
+                    android:textSize="38sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"/>
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -44,7 +46,8 @@
                     android:padding="8dp"
                     android:text="gestion stock realiser avec asp.net"
                     android:textAlignment="center"
-                    android:textSize="24dp" />
+                    android:textSize="24dp"
+                    android:textColor="@color/black"/>
 
                 <ImageView
                     android:id="@+id/imageView5"
@@ -61,7 +64,8 @@
                     android:padding="8dp"
                     android:text="Application web de quiz sur la COVID. realiser avec html5,css3 et js"
                     android:textAlignment="center"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textColor="@color/black"/>
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -78,27 +82,36 @@
                     android:padding="8dp"
                     android:text="Application web de quiz sur la COVID. realiser avec html5,css3 et js"
                     android:textAlignment="center"
-                    android:textSize="24dp" />
+                    android:textSize="24dp"
+                    android:textColor="@color/black"/>
             </LinearLayout>
             <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                android:layout_marginTop="24dp">
                 <TextView
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:padding="8dp"
                     android:text="Mes Refernces"
-                    android:textSize="35sp" />
+                    android:textSize="35sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp">
 
                     <ImageView
                         android:id="@+id/imageView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/img_profil_round" />
 
@@ -109,7 +122,8 @@
                         android:layout_weight="1"
                         android:text="Matar THIOYE"
                         android:textSize="24sp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
@@ -117,7 +131,8 @@
                         android:layout_weight="1"
                         android:text="Developpeur senior  a Gainde 2000"
                         android:textSize="24sp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -127,8 +142,9 @@
 
                         <ImageView
                             android:id="@+id/imageView2"
-                            android:layout_width="70dp"
-                            android:layout_height="60dp"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="8dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/email" />
 
@@ -138,22 +154,27 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_marginTop="16dp"
-                            android:layout_marginEnd="33dp"
                             android:padding="8dp"
                             android:text="mthioye@gmail.com"
                             android:textSize="24sp"
-                            android:textAlignment="center"/>
+                            android:textAlignment="center"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp">
 
                     <ImageView
                         android:id="@+id/imageView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/img_profil_round" />
 
@@ -164,7 +185,8 @@
                         android:layout_weight="1"
                         android:text="Papa Ibrahima N’DIAYE"
                         android:textSize="24sp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                     <TextView
                         android:id="@+id/textView21"
                         android:layout_width="match_parent"
@@ -172,7 +194,8 @@
                         android:layout_weight="1"
                         android:text="Apprenant a simplon"
                         android:textSize="24sp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -180,8 +203,9 @@
                         android:layout_marginLeft="24dp">
                         <ImageView
                             android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="60dp"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="8dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/email" />
 
@@ -191,22 +215,27 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_marginTop="16dp"
-                            android:layout_marginEnd="33dp"
                             android:padding="8dp"
                             android:text="papi@gmail.com"
                             android:textSize="24sp"
-                            android:textAlignment="center"/>
+                            android:textAlignment="center"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp">
 
                     <ImageView
                         android:id="@+id/imageView019"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/img_profil_round"/>
 
@@ -217,7 +246,8 @@
                         android:layout_weight="1"
                         android:text="jean claude CAMARA"
                         android:textSize="24sp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
@@ -225,7 +255,8 @@
                         android:layout_weight="1"
                         android:text="Etudiant a isi DAKAR"
                         android:textSize="24sp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -233,8 +264,9 @@
                         android:layout_marginLeft="24dp">
                         <ImageView
                             android:id="@+id/imageView05"
-                            android:layout_width="70dp"
-                            android:layout_height="60dp"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="8dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/email" />
 
@@ -244,11 +276,13 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_marginTop="16dp"
-                            android:layout_marginEnd="33dp"
                             android:padding="8dp"
                             android:text="jccam38@gmail.com"
                             android:textSize="24sp"
-                            android:textAlignment="center"/>
+                            android:textAlignment="center"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
                     </RelativeLayout>
                 </LinearLayout>
             </LinearLayout>

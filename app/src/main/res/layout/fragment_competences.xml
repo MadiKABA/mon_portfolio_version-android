@@ -4,16 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
@@ -21,78 +18,73 @@
                 android:text="Mes Competences"
                 android:textAlignment="center"
                 android:textSize="40dp"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
+                android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="2dp"
+                    android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
-
                     <ImageView
                         android:id="@+id/imageView12"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/backend" />
-
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/database" />
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Créer une base de données"
                         android:textAlignment="center"
-                        android:textSize="24dp" />
+                        android:textSize="24dp"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="2dp"
+                    android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
-
                     <ImageView
                         android:id="@+id/imageView11"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/front_end" />
-
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/web_development"/>
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Développer une interface utilisateur web dynamique"
                         android:textAlignment="center"
-                        android:textSize="24dp" />
+                        android:textSize="24dp"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_margin="4dp">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical"
-                    android:layout_margin="2dp">
-
+                    android:layout_margin="4dp">
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/front_end" />
-
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/development" />
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
@@ -100,33 +92,31 @@
                         android:text="Développer la partie back-end d’une
                         application web ou web mobile"
                         android:textSize="24dp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical"
-                    android:layout_margin="2dp">
-
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="16dp">
                     <ImageView
                         android:id="@+id/imageView9"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/backend" />
-
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/graphic_design" />
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Maquetter une application"
                         android:textSize="24dp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
-
             </LinearLayout>
-
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
@@ -135,29 +125,44 @@
                 android:textSize="24dp"
                 android:textAlignment="center"
                 android:layout_marginTop="16dp"
-                android:padding="4dp"
-                android:layout_marginEnd="8dp"/>
-
+                android:padding="24dp"
+                android:textColor="@color/black"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_margin="8dp">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            android:layout_centerInParent="true"
+                            android:text="75%"
+                            android:textColor="@color/black"/>
 
-                    <ProgressBar
-                        android:id="@+id/progressBarHtml"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:progress="75"
-                        android:progressDrawable="@drawable/circle_progress"
-                        android:textAlignment="center"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarHtml"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_centerInParent="true"
+                            android:progressDrawable="@drawable/circle"
+                            tools:progress="75" />
+                    </RelativeLayout>
 
                     <TextView
                         android:id="@+id/textViewHtml"
@@ -167,23 +172,41 @@
                         android:textAlignment="center"
                         android:textSize="28dp"
                         android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:layout_marginEnd="55dp"/>
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                    <ProgressBar
-                        android:id="@+id/progressBarCss"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:progress="70"
-                        android:progressDrawable="@drawable/circle_progress"
-                        android:textAlignment="center"/>
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="70%"
+                            android:textStyle="bold"
+                            android:textSize="40sp"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/black"/>
+
+                        <ProgressBar
+                            android:id="@+id/progressBarCss"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_centerInParent="true"
+                            android:progressDrawable="@drawable/circle"
+                            tools:progress="70" />
+                    </RelativeLayout>
 
                     <TextView
                         android:id="@+id/textViewCss"
@@ -193,7 +216,8 @@
                         android:textAlignment="center"
                         android:textSize="28dp"
                         android:textStyle="bold"
-                        android:layout_marginEnd="55dp"/>
+                        android:layout_marginEnd="55dp"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -209,14 +233,33 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <ProgressBar
-                        android:id="@+id/progressBarJs"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:progress="55"
-                        android:progressDrawable="@drawable/circle_progress"
-                        android:textAlignment="center" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="45%"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/black"/>
+
+                        <ProgressBar
+                            android:id="@+id/progressBarJs"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_centerInParent="true"
+                            android:progressDrawable="@drawable/circle"
+                            tools:progress="45" />
+                    </RelativeLayout>
 
                     <TextView
                         android:id="@+id/textViewJs"
@@ -226,7 +269,8 @@
                         android:text="JS"
                         android:textAlignment="center"
                         android:textSize="28dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -234,16 +278,31 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
-
-                    <ProgressBar
-                        android:id="@+id/progressBarPhp"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:progress="70"
-                        android:progressDrawable="@drawable/circle_progress"
-                        android:textAlignment="center" />
-
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="60%"
+                            android:layout_centerInParent="true"
+                            android:textStyle="bold"
+                            android:textSize="40sp"
+                            android:textColor="@color/black"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarPhp"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_centerInParent="true"
+                            android:progressDrawable="@drawable/circle"
+                            tools:progress="60" />
+                    </RelativeLayout>
                     <TextView
                         android:id="@+id/textViewPhp"
                         android:layout_width="match_parent"
@@ -252,31 +311,45 @@
                         android:text="PHP"
                         android:textAlignment="center"
                         android:textSize="28dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_margin="8dp">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
-
-                    <ProgressBar
-                        android:id="@+id/progressBarAsp"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:progress="65"
-                        android:progressDrawable="@drawable/circle_progress"
-                        android:textAlignment="center" />
-
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50%"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_centerInParent="true"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarAsp"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_centerInParent="true"
+                            android:progressDrawable="@drawable/circle"
+                            tools:progress="50" />
+                    </RelativeLayout>
                     <TextView
                         android:id="@+id/textViewAsp"
                         android:layout_width="match_parent"
@@ -285,24 +358,40 @@
                         android:text="ASP.NET"
                         android:textAlignment="center"
                         android:textSize="28dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
-
-                    <ProgressBar
-                        android:id="@+id/progressBarJava"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:progress="60"
-                        android:progressDrawable="@drawable/circle_progress"
-                        android:textAlignment="center" />
-
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="60%"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_centerInParent="true"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarJava"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:progressDrawable="@drawable/circle"
+                            android:textAlignment="center"
+                            tools:progress="60"
+                            android:layout_centerInParent="true"/>
+                    </RelativeLayout>
                     <TextView
                         android:id="@+id/textViewJava"
                         android:layout_width="match_parent"
@@ -311,6 +400,7 @@
                         android:text="JAVA"
                         android:textAlignment="center"
                         android:textSize="28dp"
+                        android:textColor="@color/black"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -321,7 +411,8 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="38dp"
-                android:layout_marginTop="24dp"/>
+                android:layout_marginTop="24dp"
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -329,8 +420,8 @@
                 android:textSize="24dp"
                 android:textAlignment="center"
                 android:layout_margin="16dp"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

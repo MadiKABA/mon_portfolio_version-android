@@ -6,11 +6,13 @@
         <entry key="app/src/main/res/drawable/bordure_ronde.xml" value="0.215625" />
         <entry key="app/src/main/res/drawable/btn_raduis.xml" value="0.375" />
         <entry key="app/src/main/res/drawable/card_formation_border.xml" value="0.215625" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/circle_progress.xml" value="0.215625" />
+        <entry key="app/src/main/res/drawable/progress_circle.xml" value="0.30277777777777776" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.19947916666666668" />
-        <entry key="app/src/main/res/layout/fragment_centre_d_interet.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/fragment_centre_d_interet.xml" value="0.22666666666666668" />
         <entry key="app/src/main/res/layout/fragment_competences.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/fragment_formations.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3342391304347826" />

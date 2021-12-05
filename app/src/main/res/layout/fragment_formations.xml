@@ -21,7 +21,9 @@
                 android:padding="15dp"
                 android:text="Mes Formations"
                 android:textAlignment="center"
-                android:textSize="35dp" />
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,8 +38,9 @@
                     android:layout_weight="1"
                     android:text="2021-a nos jours"
                     android:textAlignment="center"
-                    android:textSize="24dp" />
-
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
@@ -46,8 +49,8 @@
                     android:layout_weight="1"
                     android:padding="8dp"
                     android:text="Formation en developpement web et web mobile"
-                    android:textSize="20dp" />
-
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -67,10 +70,11 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="16dp"
-                        android:layout_marginEnd="33dp"
+                        android:layout_centerInParent="true"
                         android:padding="8dp"
                         android:text="SIMPLON SENEGAL"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
                 </RelativeLayout>
             </LinearLayout>
 
@@ -87,7 +91,9 @@
                     android:layout_weight="1"
                     android:text="2019 -2021"
                     android:textAlignment="center"
-                    android:textSize="24dp" />
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/textView7"
@@ -97,14 +103,13 @@
                     android:layout_weight="1"
                     android:padding="8dp"
                     android:text="Etudiant en cycle ingenieur en technique informatique. "
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1">
-
-
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="70dp"
@@ -118,11 +123,11 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="16dp"
-                        android:layout_marginEnd="33dp"
+                        android:layout_centerInParent="true"
                         android:padding="8dp"
-                        android:text="Institut superieur d’informatique
-(ISI Dakar)."
-                        android:textSize="20dp" />
+                        android:text="Institut superieur d’informatique(ISI Dakar)."
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
                 </RelativeLayout>
             </LinearLayout>
 
@@ -139,8 +144,9 @@
                     android:layout_weight="1"
                     android:text="2020-2021"
                     android:textAlignment="center"
-                    android:textSize="24dp" />
-
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
                 <TextView
                     android:id="@+id/textView06"
                     android:layout_width="wrap_content"
@@ -149,14 +155,13 @@
                     android:layout_weight="1"
                     android:padding="8dp"
                     android:text="Certification en CCNA(Certified Cisco Network Academy)"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1">
-
-
                     <ImageView
                         android:id="@+id/imageView02"
                         android:layout_width="70dp"
@@ -170,11 +175,11 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="16dp"
-                        android:layout_marginEnd="33dp"
+                        android:layout_centerInParent="true"
                         android:padding="8dp"
-                        android:text="Institut superieur d’informatique
-(ISI Dakar)."
-                        android:textSize="20dp" />
+                        android:text="Institut superieur d’informatique(ISI Dakar)."
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
                 </RelativeLayout>
             </LinearLayout>
 
@@ -192,7 +197,9 @@
                     android:layout_weight="1"
                     android:text="2017-2019 "
                     android:textSize="24dp"
-                    android:textAlignment="center"/>
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
                 <TextView
                     android:id="@+id/textView006"
                     android:layout_width="wrap_content"
@@ -201,7 +208,8 @@
                     android:text="Diplome de techniciens superieur en reserau informatique et genie logiciel. "
                     android:layout_marginLeft="64dp"
                     android:textSize="20dp"
-                    android:padding="8dp"/>
+                    android:padding="8dp"
+                    android:textColor="@color/black"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -221,11 +229,12 @@
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
-                        android:layout_marginEnd="33dp"
+                        android:layout_centerInParent="true"
                         android:layout_marginTop="8dp"
                         android:padding="8dp"
                         android:text="Institut superieur d’informatique(ISI Dakar)."
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
